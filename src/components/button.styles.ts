@@ -26,7 +26,7 @@ export const ButtonContainer = styled.button<ButtonConteinarProps>`
   
   background-color: ${ props => props.theme.light };
   color: ${ props => props.theme.white };
-  box-shadow: ${ props => props.theme.light}  3px 4px 8px;
+
 
   &:hover{
     cursor: pointer;
@@ -34,7 +34,7 @@ export const ButtonContainer = styled.button<ButtonConteinarProps>`
     transition: all 0.2s ease-in-out;
     background-color: ${ props => props.theme.primary };
     color: ${ props => props.theme.white };
-    box-shadow: ${ props => props.theme.primary}  3px 4px 8px;
+    box-shadow: ${ props => props.theme.primary}  3px 4px 4px;
   }
 
 `
