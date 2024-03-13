@@ -24,17 +24,17 @@ export const ButtonContainer = styled.button<ButtonConteinarProps>`
   margin: 8px;
   font-weight: 600;
   
-  background-color: ${ props => props.theme.light };
-  color: ${ props => props.theme.white };
+  background-color: ${ props => props.theme['purple-400'] };
+  color: ${ props => props.theme['purple-100'] };
 
 
   &:hover{
     cursor: pointer;
     transform: scale(1.05);
     transition: all 0.2s ease-in-out;
-    background-color: ${ props => props.theme.primary };
+    background-color: ${ props => props.theme['purple-500'] };
     color: ${ props => props.theme.white };
-    box-shadow: ${ props => props.theme.primary}  3px 4px 4px;
+    box-shadow: ${ props => props.theme['purple-700']	}  3px 4px 4px;
   }
 
 `
